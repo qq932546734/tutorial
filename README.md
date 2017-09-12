@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## How To Use it
 在确认一切都安装完毕并能正常运行之后，
 1. 首先在source文件夹下新建一个文件夹，该文件夹对应我们将要进行的项目。将raw文件夹（source/cooperation文件夹下）复制到项目文件夹内。新建一个文件夹，命名tagged，将导出的数据复制到该文件夹下。至此，数据准备工作完毕。
-2. 直接进行进行model训练（这里没有必要进行前处理，模型在没有找到数据的时候会自动加载数据并进行处理。  
+2. 直接进行进行model训练（这里没有必要进行前处理，模型在没有找到数据的时候会自动加载数据并进行处理。）
 在命令行输入python，进入Python shell（光标最左侧会有>>>）
 ```
 >>> from vector import Model
