@@ -1,7 +1,7 @@
 # For windows
 ## Install Anaconda and Dependencies
-1. 安装Anaconda，记得两个选项都要勾选，第一个选项的功能是将安装路径加入到环境变量
-Note：如果没有勾选，可以手动加入环境变量（如若不知道如何添加环境变量，百度一下吧）
+1. 安装Anaconda，记得两个选项都要勾选，第一个选项的功能是将安装路径加入到环境变量.  
+Note：如果没有勾选，可以手动加入环境变量（如若不知道如何添加环境变量，百度一下吧）  
 需要添加的变量：(C:\ProgramData\Anaconda3 将该路径替换成你本机上Anaconda的路径)
 ```
 C:\ProgramData\Anaconda3
