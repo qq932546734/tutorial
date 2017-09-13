@@ -17,6 +17,7 @@ C:\ProgramData\Anaconda3\Scripts
 cd /d d:\vector
 pip install -r requirements.txt
 ```
+NOTE:不需要逐个安装，已经安装了一部分包的也可以运行一遍以上命令，不影响。
 
 ## How To Use it
 在确认一切都安装完毕并能正常运行之后，
