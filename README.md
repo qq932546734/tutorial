@@ -25,8 +25,16 @@ pip install -r requirements.txt
 >>> import vector
 ```
 如果不提示错误，表明一切正常。若提示`ModuleNotFoundError: No module named 'vector'`，表明当前所在目录下没有`vector`，退出python shell（ctrl+z), 重新cd切换当前工作目录。
-* 测试网络环境：在命令行运行`ping 172.16.160.203`，如果结果显示类似于：`64 bytes from 172.16.160.168: icmp_seq=0 ttl=64 time=0.618 ms`，表示网络正常
-
+* 测试网络环境：在命令行运行`ping 172.16.160.203`，如果结果显示类似于：`64 bytes from 172.16.160.203: icmp_seq=0 ttl=64 time=0.618 ms`，表示网络正常
+* __检查配置：打开vector文件夹，找到`settings.py`文件，确保`ubuntu_db`中的host设置正确__
+```
+ubuntu_db = dict(
+    host='172.16.160.203', 
+    user='bnu', 
+    password='bnu', 
+    database='vectors',
+    charset="utf8")
+```
 ---
 ## 使用说明
 在确认一切都安装完毕并能正常运行之后，
